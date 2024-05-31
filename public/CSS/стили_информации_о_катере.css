@@ -1,0 +1,390 @@
+@font-face {
+    font-family: "Jura_h";
+    src: url("Fonts/Jura/static/Jura-Bold.ttf");
+}
+
+h1{
+    font-family: "Jura_h";
+    font-size: 48px;
+}
+
+h2{
+    font-family: "Jura_h";
+    font-size: 36px;
+}
+
+body{
+    margin: 0, 0;
+}
+
+h3{
+    font-family: "Jura_h";
+    font-size: 32px;
+}
+
+h4{
+    font-family: "Jura_h";
+    font-size: 24px;
+}
+
+@font-face {
+    font-family: "Caveat_p";
+    src: url("Fonts/Caveat/static/Caveat-Bold.ttf");
+}
+
+.p1{
+    font-family: "Caveat_p";
+    font-size: 36px;
+}
+.p2{
+    font-family: "Caveat_p";
+    font-size: 24px;
+}
+
+:root{
+    --Water:#56BEB8;
+    --Sun: #e9c305 ;
+    --Grass: #429459;
+    --sunset: #DB3D0B;
+    --grey: #E2E2E2;
+}
+header{
+    background-image: url("image_for_problem/фон_шапки.svg");
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo{
+    border: 3px solid black;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+.cont{
+    width: 100%;
+    height: 80px;
+    background-color: var(--Sun);
+    opacity: 0.5;
+}
+
+.navigator{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.navigator a{
+    color: black;
+    opacity: 0.5;
+}
+.navigator_2{
+    display: flex;
+    justify-content: center;
+}
+.navigator a:hover{
+    opacity: 1;
+    transition: all .5s ease-out;
+}
+.navigator a{
+    text-decoration: none;
+}
+.nav_3{
+    background-color: var(--sunset);
+    opacity: 0.5;
+}
+.nav_3 a{
+    opacity: 1;
+}
+.popup{
+    margin-top: -400px;
+    position: absolute;
+    width: 100%;
+    height: 130%;
+    background-color: rgba(0, 0, 0, 0.8);
+    visibility: hidden;
+    position: fixed;
+}
+.popup_body{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    
+}
+.pop_up_content{
+    height: 250px;
+    width: 400px;
+    background-color: #E2E2E2;
+}
+.back{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.x{
+    width: 30px;
+    height: 30px;
+}
+.button_reg{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.text_pop_up{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.position_col_but_rgistr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.registration{
+    background-color: #7e7e7e;
+    width: 185px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.registr_col{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.registration:hover{
+    border: 1px solid black;
+    background-color: #585353;
+    transition: all .3s ease-out;
+}
+.pad{
+    margin-bottom: 50px;
+}
+.popup{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    visibility: hidden;
+    padding-bottom: 100%;
+    position: fixed;
+}
+.popup_body{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    
+}
+.pop_up_content{
+    height: 250px;
+    width: 400px;
+    background-color: #E2E2E2;
+}
+.back{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.x{
+    width: 30px;
+    height: 30px;
+}
+
+.if{
+    display: none;
+}
+.els{
+    display: none;
+}
+
+
+
+.button_reg{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.text_pop_up{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.position_col_but_rgistr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.registration{
+    background-color: #7e7e7e;
+    width: 185px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.registr_col{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.registration:hover{
+    border: 1px solid black;
+    background-color: #585353;
+    transition: all .3s ease-out;
+}
+.pad{
+    margin-bottom: 50px;
+}
+main{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.information{
+    width: 1000px;
+    height: 1620px;
+    background-color: rgba(86, 189, 184, 0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.position_h{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.position_img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.photo{
+    width: 720px;
+    height: 470px;
+}
+
+.position_h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.position_paragraph{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.paragraph{
+    width: 790px;
+    height: 100px;
+}
+.position_haracteristics_h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.position_haracteristics{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.position_button{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-bottom: 20px;
+
+}
+.button{
+    width: 220px;
+    height: 60px;
+    background-color: var(--Grass);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.col_pos{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.stoim{
+    width: 135px;
+}
+.position_button_column{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.position_many{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.position_text_many{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.popupCalculatorPricePosition{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 100%;
+    position: fixed;
+    margin-top: -1000px;
+
+}
+.fon{
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    margin-top: 40%;
+    margin-left: 30%;
+}
+.mar{
+    padding-top: 50px;
+}
+.posi{
+    margin-top: 20px;
+    margin-left: 240px;
+}
+
+.size{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.button_polo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+.top{
+    margin-top: -270px;
+    padding-left: 20px;
+}
